@@ -70,3 +70,24 @@ ___
 
 #### 11. Salários em Termos de Salários Mínimos
 - Calcula e imprime quantos salários mínimos (R$ 1212,00) cada funcionário ganha.
+
+---
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+- Java 21 (OpenJDK) instalado.
+- Maven instalado.
+
+### Passos
+
+1. Clone o repositório ou copie o código para um diretório local.
+2. Navegue até o diretório do projeto.
+3. Compile o projeto com Maven:
+   ```bash
+   mvn clean compile
+
+#### Execute
+
+```bash
+   mvn exec:java "-Dexec.mainClass=com.balsani.Principal"
